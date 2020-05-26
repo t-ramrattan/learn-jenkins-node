@@ -7,6 +7,6 @@ beforeEach(() => {
 
 describe('HelloWorld Test', () => {
     it("should return hello world message", () => {
-        assert.equal('Hello World', this.helloWorld.sayHello());
+        assert.equal('Hello, World!!!', this.helloWorld.sayHello());
     })
 });
